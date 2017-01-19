@@ -1,0 +1,22 @@
+{
+  "name": "dp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.41.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "tslib": "^1.5.0",
+    "typescript": "^2.0.10"
+  },
+  "dependencies": {
+    "bezier-easing": "^2.0.3"
+  }
+}

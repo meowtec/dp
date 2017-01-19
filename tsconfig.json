@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./_src/",
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "module": "es2015",
+    "target": "es5",
+    "baseUrl": "./node_modules/",
+    "paths": { "tslib" : ["./tslib/tslib.d.ts"] },
+    "importHelpers": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*",
+    "dts"
+  ]
+}
